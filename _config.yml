@@ -7,7 +7,7 @@
 
 # Site Settings
 locale: "en-US"
-title: "LIT@UNT"
+title: "LITLab"
 title_separator: "-"
 name: &name "Language, Interpretability and Trust @UNT"
 description: &description "Research lab at the Department of Computer Science and Engineering, University of North Texas"
@@ -83,7 +83,7 @@ analytics:
 
       # Site Author
 author:
-  name: "LIT @ UNT"
+  name: "LITLab"
   avatar: "site-logo.svg"
   bio: "NLP/ML research at the University of North Texas."
   location: "Denton, TX"
