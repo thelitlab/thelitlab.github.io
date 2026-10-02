@@ -165,3 +165,44 @@ $logo-zoom: 1.25;
     max-width: none;
   }
 }
+
+/* UNT eagle in the right corner of the black header bar */
+.masthead__menu {
+  display: flex;
+  align-items: center;
+
+  #site-nav { flex: 1 1 auto; min-width: 0; }
+}
+.masthead__unt {
+  flex: 0 0 auto;
+  margin-left: 1em;
+  line-height: 0;
+
+  img { height: 2.6em; width: auto; }
+}
+
+/* Funding logos on the home page */
+.funders {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(12em, 1fr));
+  gap: 1.5em 2em;
+  margin: 1em 0 2em;
+}
+.funder {
+  font-size: $type-size-6;
+
+  &__logo {
+    display: flex;
+    align-items: center;
+    height: 5.5em;
+    margin-bottom: 0.5em;
+
+    img { max-height: 100%; max-width: 100%; width: auto; }
+  }
+
+  &__grants {
+    margin: 0;
+    padding-left: 1.1em;
+    color: $gray;
+  }
+}

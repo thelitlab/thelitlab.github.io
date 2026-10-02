@@ -1,0 +1,17 @@
+# Funders shown in the Funding section of the home page.
+# logo: file in /images/funding/ ; url: link for the logo ; grants: one line each (Markdown)
+- name: "National Institutes of Health"
+  logo: "nih.svg"
+  url: "https://www.nih.gov/"
+  grants:
+    - "[Instrumentation grant](https://grants.nih.gov/grants/guide/pa-files/PAR-23-138.html) for a shared GPU cluster at UNT"
+- name: "Institute of Museum and Library Services"
+  logo: "imls.svg"
+  url: "https://www.imls.gov/"
+  grants:
+    - "[Research grant LG-260439-OLS-26](https://www.imls.gov/grants/awarded/lg-260439-ols-26), with NIU and ODU"
+- name: "University of North Texas"
+  logo: "unt.svg"
+  url: "https://www.unt.edu/"
+  grants:
+    - "[PAHS–College of Engineering joint seed grant](https://pahs.unt.edu/research/pahs-college-of-engineering-joint-seed-grant.html)"
