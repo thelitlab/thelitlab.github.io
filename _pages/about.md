@@ -1,7 +1,7 @@
 ---
 permalink: /
-title: "LIT @UNT"
-excerpt: "LIT Lab at the University of North Texas"
+title: ""
+excerpt: "LIT Group at the University of North Texas"
 author_profile: true
 redirect_from:
   - /about/

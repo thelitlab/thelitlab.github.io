@@ -1,4 +1,4 @@
-# LIT Lab website
+# LIT Group website
 
 The lab website, built with [Jekyll](https://jekyllrb.com) and the
 [AcademicPages](https://github.com/academicpages/academicpages.github.io) theme
