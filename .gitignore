@@ -9,6 +9,6 @@ Thumbs.db
 ehthumbs.db
 # local tooling
 .bundle
-vendor
+/vendor
 .jekyll-cache
 Gemfile.lock
