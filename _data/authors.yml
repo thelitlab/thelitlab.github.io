@@ -40,11 +40,11 @@ seuti:
 rafid:
   name          : "Rafid Isharak Jahan"
   position      : "Student"
-  avatar        : "people/rafid.jpg"
+  avatar        : "people/placeholder.jpg"
   uri           : "https://rafid5.github.io/"
 
 Arefa:
   name          : "Arefa Patwary"
   position      : "Student"
-  avatar        : "people/arefa.jpg"
+  avatar        : "people/placeholder.jpg"
   uri           : "https://arefapatwary.github.io"
