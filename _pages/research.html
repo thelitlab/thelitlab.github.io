@@ -10,6 +10,10 @@ We organize our work around three connected questions: how models use informatio
 {% comment %}Each research area is a file in _portfolio/.{% endcomment %}
 {% include base_path %}
 
+<figure class="research-overview">
+  <img src="{{ base_path }}/images/research/overview.svg" alt="Three connected research directions: understanding model behavior, evaluation and learning from feedback, and language technologies for scientific knowledge.">
+</figure>
+
 {% assign research_areas = site.portfolio | sort: "order" %}
 {% for post in research_areas %}
   {% include archive-single.html %}
