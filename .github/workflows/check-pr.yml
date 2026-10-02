@@ -1,0 +1,29 @@
+name: Check pull request
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+jobs:
+  validate-posts:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install pyyaml
+      - name: Check blog posts and _data/authors.yml
+        run: python scripts/check_posts.py
+
+  build-site:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: "3.3"
+          bundler-cache: true
+      - name: Build with Jekyll (same gems as GitHub Pages)
+        run: bundle exec jekyll build --future

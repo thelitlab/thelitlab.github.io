@@ -1,0 +1,16 @@
+# Top navigation bar. Order here is the order on the site.
+main:
+  - title: "People"
+    url: /people/
+
+  - title: "Research"
+    url: /research/
+
+  - title: "Publications"
+    url: /publications/
+
+  - title: "Blog"
+    url: /blog/
+
+  - title: "News"
+    url: /news/

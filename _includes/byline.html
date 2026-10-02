@@ -1,0 +1,22 @@
+{% comment %}
+  Author byline for blog posts. Pass the post: {% include byline.html post=post %}
+  Supports `author: id` or `authors: [id1, id2]` (ids from _data/authors.yml).
+{% endcomment %}
+{% include base_path %}
+{% assign p = include.post | default: page %}
+{% if p.authors %}{% assign ids = p.authors %}{% elsif p.author %}{% assign ids = p.author | split: "," %}{% endif %}
+{% if ids %}
+<p class="byline">
+  {% for id in ids %}
+    {% assign key = id | strip %}
+    {% assign a = site.data.authors[key] %}
+    {% if a %}
+      {% if a.avatar contains "://" %}{% assign av = a.avatar %}{% else %}{% assign av = a.avatar | prepend: "/images/" | prepend: base_path %}{% endif %}
+      <img src="{{ av }}" alt="">
+      {% if a.uri %}<a href="{{ a.uri }}">{{ a.name }}</a>{% else %}{{ a.name }}{% endif %}{% unless forloop.last %},{% endunless %}
+    {% else %}
+      {{ key }}{% unless forloop.last %},{% endunless %}
+    {% endif %}
+  {% endfor %}
+</p>
+{% endif %}

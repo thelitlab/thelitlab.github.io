@@ -1,0 +1,64 @@
+/* ==========================================================================
+   Lab additions: people grid, blog bylines, news list
+   ========================================================================== */
+
+.people-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(10em, 1fr));
+  gap: 1.5em;
+  margin-bottom: 2em;
+}
+
+.person {
+  text-align: center;
+  font-size: $type-size-6;
+
+  img {
+    width: 8em;
+    height: 8em;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 1px solid $border-color;
+  }
+
+  &__name {
+    margin: 0.5em 0 0.1em;
+    font-family: $sans-serif;
+    font-size: $type-size-5;
+  }
+
+  &__position,
+  &__now {
+    margin: 0;
+    color: $gray;
+  }
+
+  &__links {
+    margin: 0.3em 0 0;
+    a { margin: 0 0.25em; color: $gray; }
+    a:hover { color: $link-color; }
+  }
+}
+
+.byline {
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+  margin: 0 0 0.5em;
+  font-family: $sans-serif;
+  font-size: $type-size-6;
+
+  img {
+    width: 2em;
+    height: 2em;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+}
+
+.news-list li { margin-bottom: 0.5em; }
+
+.blog-cta {
+  font-size: $type-size-6;
+  color: $gray;
+}

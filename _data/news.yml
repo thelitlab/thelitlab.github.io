@@ -1,0 +1,40 @@
+# Lab news, NEWEST FIRST. The home page shows the first few; /news/ shows all.
+# `title` is shown in bold; `text` is Markdown.
+- title: "AACL-IJCNLP 2026"
+  text: "One paper accepted to findings, with [Fahmid](https://fahmidiqbal1344.github.io/fahmid-iqbal/) as the lead author."
+- title: "Grants"
+  text: |
+    Three new grants:
+    - [An instrumentation grant from NIH](https://grants.nih.gov/grants/guide/pa-files/PAR-23-138.html) for a GPU cluster at UNT, in collaboration with [Dr. Mahdi Pedram](https://mahdipedro.github.io/) and others, for a total of _250K USD_.
+    - [A research grant from IMLS](https://www.imls.gov/grants/awarded/lg-260439-ols-26) for 2 years, in collaboration with NIU and ODU, for a total of _618K USD_.
+    - [Seed grant from UNT](https://pahs.unt.edu/research/pahs-college-of-engineering-joint-seed-grant.html) to collaborate with Dr. Linlang He, PAHS, a total of _10K USD_.
+- title: "ACL 2026"
+  text: "The CL paper will be presented by Jingyi at the main conference and the S-GRADES and LFQA-HP-1M paper will be presented by Tasfia and Rafid at the [GEM workshop non-archival track](https://gem-workshop.com/)."
+- title: "New paper in the [Computational Linguistics journal](https://direct.mit.edu/coli)"
+  text: "On the effectiveness of highlight explanations in identifying context utilization in LLMs: [Evaluation Framework for Highlight Explanations of Context Utilisation in Language Models](https://direct.mit.edu/coli/article/doi/10.1162/COLI.a.621/136361/Evaluation-Framework-for-Highlight-Explanations-of)."
+- title: "JCDL 2026"
+  text: "[Is in Denton](https://2026.jcdl.org/), and Sagnik is a local chair, please [send your papers!](https://2026.jcdl.org/call-for-papers/)"
+- title: "LREC 2026"
+  text: |
+    Two papers accepted at LREC 2026.
+    - With [Tasfia](https://tasfiaseuti.github.io/): [S-GRADES -- Studying Generalization of Student Response Assessments in Diverse Evaluative Settings](https://arxiv.org/abs/2603.10233)
+    - With [Rafid](https://rafid5.github.io/) and [Fahmid](https://fahmidiqbal1344.github.io/fahmid-iqbal/): [LFQA-HP-1M: A Large-Scale Human Preference Dataset for Long-Form Question Answering](https://arxiv.org/abs/2602.23603)
+- title: "EACL 2026"
+  text: "[One paper](https://aclanthology.org/2026.eacl-long.238/) accepted at EACL 2026 main!"
+- title: "AACL-IJCNLP 2025"
+  text: |
+    Two papers accepted to AACL IJCNLP main.
+    - [A Detailed Factor Analysis for the Political Compass Test: Navigating Ideologies of Large Language Models](https://aclanthology.org/2025.ijcnlp-short.25/)
+    - [SciHallu: A Multi-Granularity Hallucination Detection Dataset for Scientific Writing](https://aclanthology.org/2025.ijcnlp-long.70/)
+- title: "JCDL 2025"
+  text: "Sagnik is a co-PC chair for the [2025 ACM/IEEE Joint Conference of Digital Libraries (JCDL'25)](https://2025.jcdl.org/)."
+- title: "EMNLP 2025"
+  text: "Findings: [BAGELS: Benchmarking the Automated Generation and Extraction of Limitations from Scholarly Text](https://arxiv.org/pdf/2505.18207)."
+- title: "SDP@ACL 2025"
+  text: "[Predicting The Scholarly Impact of Research Papers Using Retrieval-Augmented LLMs](https://aclanthology.org/2025.sdp-1.11/)"
+- title: "EMNLP 2024"
+  text: "Paper on generalization awarded prize - GenBench@EMNLP2024"
+- title: "August 2024"
+  text: "The lab starts at the University of North Texas."
+- title: "July 2024"
+  text: "Paper accepted at CIKM 2024 on reproducibility."
