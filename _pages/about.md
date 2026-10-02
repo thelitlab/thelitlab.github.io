@@ -12,13 +12,10 @@ redirect_from:
 
 The **LIT (Language, Interpretability, and Trust)** group is part of the [Department of Computer Science and Engineering at the University of North Texas](https://computerscience.engineering.unt.edu/). We study how language models use information, how their outputs should be evaluated, and how supervision can improve their behavior.
 
-Our research connects three areas:
+<figure class="research-overview">
+  <a href="{{ base_path }}/research/"><img src="{{ base_path }}/images/research/overview.svg" alt="Four connected research directions: understanding model behavior; evaluation and learning from feedback; language technologies for scientific knowledge; and accountability, law and governance."></a>
+</figure>
 
-- **Understanding model behavior:** investigating representations, reasoning, and whether explanations faithfully reflect the information and computations behind a model's decisions.
-- **Evaluation and learning from feedback:** developing datasets and methods for human-preference evaluation, rubric-based assessment, and LLM judges, and studying how models learn from this supervision.
-- **Language technologies for scientific knowledge:** extracting and assessing information in scientific documents, including figures and tables, hallucinations, reproducibility, and research limitations.
-
-Our work spans long-form question answering, student response assessment, and scientific information processing.
 See our [people]({{ base_path }}/people/), [research]({{ base_path }}/research/) and [publications]({{ base_path }}/publications/).
 
 ### News
