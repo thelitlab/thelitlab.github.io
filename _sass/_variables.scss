@@ -60,7 +60,12 @@ $code-background-color-dark : $light-gray;
 $text-color                 : $dark-gray;
 $border-color               : $lighter-gray;
 
-$primary-color              : #7a8288;
+/* UNT brand: https://identityguide.unt.edu (UNT Green = PMS 356 C) */
+$unt-green                  : #00853E;
+$unt-green-dark             : #00622E;
+$unt-black                  : #000;
+
+$primary-color              : $unt-green;
 $success-color              : #62c462;
 $warning-color              : #f89406;
 $danger-color               : #ee5f5b;
@@ -90,11 +95,11 @@ $xing-color                 : #006567;
 
 
 /* links */
-$link-color                 : $info-color;
-$link-color-hover           : mix(#000, $link-color, 25%);
-$link-color-visited         : mix(#fff, $link-color, 25%);
-$masthead-link-color        : $primary-color;
-$masthead-link-color-hover  : mix(#000, $primary-color, 25%);
+$link-color                 : $unt-green;
+$link-color-hover           : $unt-green-dark;
+$link-color-visited         : $unt-green-dark;
+$masthead-link-color        : #fff;
+$masthead-link-color-hover  : #fff;
 
 
 /*

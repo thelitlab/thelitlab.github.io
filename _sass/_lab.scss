@@ -62,3 +62,62 @@
   font-size: $type-size-6;
   color: $gray;
 }
+
+/* ==========================================================================
+   UNT colors: black masthead + footer, UNT Green accents.
+   Colors are defined once in _variables.scss ($unt-green, $unt-black).
+   ========================================================================== */
+
+.masthead {
+  background: $unt-black;
+  border-bottom: 4px solid $unt-green;
+}
+
+.greedy-nav {
+  background: $unt-black;
+
+  .visible-links a:before { background: $unt-green; }   /* hover underline */
+
+  .hidden-links {                                        /* overflow menu on small screens */
+    background: $unt-black;
+    border-color: $unt-green;
+    a:hover { color: #fff; background: $unt-green; }
+  }
+}
+
+.page__footer {
+  background: $unt-black;
+  border-top: 4px solid $unt-green;
+  color: #ccc;
+
+  a, .social-icons a, .page__footer-copyright { color: #ccc; }
+  a:hover { color: #fff; }
+  .fa-rss-square, .fa-github { color: #fff; }
+}
+
+.btn,
+.btn--inverse:hover {
+  background-color: $unt-green;
+  border-color: $unt-green !important;
+  color: #fff !important;
+}
+.btn:hover { background-color: $unt-green-dark; }
+
+.archive__subtitle {
+  color: $unt-black;
+  border-bottom: 2px solid $unt-green;
+}
+
+.page__title { color: $unt-black; }
+
+.person img { border: 3px solid $unt-green; }
+.person__links a:hover { color: $unt-green; }
+.byline img { border: 2px solid $unt-green; }
+
+.page__taxonomy-item {                                   /* tag pills on posts */
+  border-color: $unt-green;
+  color: $unt-green-dark;
+  &:hover { background: $unt-green; color: #fff; }
+}
+
+::selection { background: $unt-green; color: #fff; }
