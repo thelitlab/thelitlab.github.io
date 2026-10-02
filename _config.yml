@@ -7,13 +7,13 @@
 
 # Site Settings
 locale: "en-US"
-title: "XYZ Lab"
+title: "LIT@UNT"
 title_separator: "-"
-name: &name "XYZ Lab"
+name: &name "Language, Interpretability and Trust @UNT"
 description: &description "Research lab at the Department of Computer Science and Engineering, University of North Texas"
-url: https://xyz-lab.github.io # TODO: set to the lab site URL; the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url: https://litlab.github.io # TODO: set to the lab site URL; the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl: "" # the subpath of your site, e.g. "/blog"
-repository: "xyz-lab/xyz-lab.github.io" # TODO: set to the lab repo (used for "edit/propose a post" links)
+repository: "litlab/litlab.github.io" # TODO: set to the lab repo (used for "edit/propose a post" links)
 repository_branch: "main"
 teaser: # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs: false # true, false (default)
@@ -83,7 +83,7 @@ analytics:
 
       # Site Author
 author:
-  name: "XYZ Lab"
+  name: "LIT Lab"
   avatar: "site-logo.png"
   bio: "NLP/ML research at the University of North Texas."
   location: "Denton, TX"

@@ -1,4 +1,4 @@
-# XYZ Lab website
+# LIT Lab website
 
 The lab website, built with [Jekyll](https://jekyllrb.com) and the
 [AcademicPages](https://github.com/academicpages/academicpages.github.io) theme
@@ -21,8 +21,8 @@ and served by GitHub Pages.
 
 ## One-time setup (maintainers)
 
-1. Create the GitHub repo, e.g. a `xyz-lab` organization with a repo called
-   `xyz-lab.github.io`, and push this folder to its `main` branch.
+1. Create the GitHub repo, e.g. a `litlab` organization with a repo called
+   `litlab.github.io`, and push this folder to its `main` branch.
 2. Update `url`, `repository` and the `author:` block in `_config.yml`, and the
    handle in `.github/CODEOWNERS`.
 3. **Settings → Pages**: Source = *Deploy from a branch*, Branch = `main` / `(root)`.
