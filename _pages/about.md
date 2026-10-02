@@ -18,6 +18,21 @@ The **LIT (Language, Interpretability, and Trust)** group is part of the [Depart
 
 See our [people]({{ base_path }}/people/), [research]({{ base_path }}/research/) and [publications]({{ base_path }}/publications/).
 
+### Funding
+
+Our work is supported by:
+
+<div class="funders">
+{% for f in site.data.funding %}
+  <div class="funder">
+    <a href="{{ f.url }}" class="funder__logo"><img src="{{ base_path }}/images/funding/{{ f.logo }}" alt="{{ f.name }}"></a>
+    <ul class="funder__grants">
+    {% for g in f.grants %}<li>{{ g | markdownify | remove: "<p>" | remove: "</p>" | strip }}</li>{% endfor %}
+    </ul>
+  </div>
+{% endfor %}
+</div>
+
 ### News
 
 <ul class="news-list">
@@ -35,18 +50,3 @@ See our [people]({{ base_path }}/people/), [research]({{ base_path }}/research/)
 No posts yet.
 {% endfor %}
 [All posts →]({{ base_path }}/blog/)
-
-### Funding
-
-Our work is supported by:
-
-<div class="funders">
-{% for f in site.data.funding %}
-  <div class="funder">
-    <a href="{{ f.url }}" class="funder__logo"><img src="{{ base_path }}/images/funding/{{ f.logo }}" alt="{{ f.name }}"></a>
-    <ul class="funder__grants">
-    {% for g in f.grants %}<li>{{ g | markdownify | remove: "<p>" | remove: "</p>" | strip }}</li>{% endfor %}
-    </ul>
-  </div>
-{% endfor %}
-</div>
