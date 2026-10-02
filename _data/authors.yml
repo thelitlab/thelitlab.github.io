@@ -18,7 +18,7 @@ sagnik:
   name          : "Sagnik Ray Choudhury"
   position      : "Assistant Professor, CSE, UNT"
   avatar        : "people/sagnik.jpeg"
-  bio           : "Applied NLP/ML researcher: explaining LLM behaviour and limitations, and scholarly information processing."
+  bio           : "Applied NLP/ML researcher studying model behavior, evaluation and learning from feedback, and language technologies for scientific knowledge."
   uri           : "https://sagnikrayc.xyz/"
   email         : "sagnikrayc@gmail.com"
   github        : "sagnik"
@@ -39,6 +39,12 @@ tasfia:
 
 rafid:
   name          : "Rafid"
+  position      : "Student"
+  avatar        : "people/placeholder.jpg"
+  uri           : "https://rafid5.github.io/"
+
+Arefa:
+  name          : "Arefa"
   position      : "Student"
   avatar        : "people/placeholder.jpg"
   uri           : "https://rafid5.github.io/"
