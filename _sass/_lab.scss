@@ -154,3 +154,12 @@ $logo-zoom: 1.25;
   margin: 1.5em 0 2em;
   img { display: block; width: 100%; height: auto; }
 }
+
+/* Home page: let the figure use the empty right-hand margin of .page
+   (suffix 2/12 vs. a 7.5/12 text column, so up to ~126% of the column). */
+.research-overview--wide {
+  @include breakpoint($large) {
+    width: 125%;
+    max-width: none;
+  }
+}
