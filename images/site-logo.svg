@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" role="img" aria-labelledby="t">
+  <title id="t">LITLab: Language, Interpretability, and Trust</title>
+  <style>
+    .mono { font-family: "JetBrains Mono", "SF Mono", Menlo, Consolas, "DejaVu Sans Mono", monospace; }
+  </style>
+
+  <!-- light macOS-style window, matching the research overview figure -->
+  <rect x="5" y="5" width="790" height="390" rx="30" fill="#f8fafb" stroke="#d5dae1" stroke-width="2.5"/>
+  <path d="M35 5 H765 A30 30 0 0 1 795 35 V64 H5 V35 A30 30 0 0 1 35 5 Z" fill="#eceff3"/>
+  <line x1="5" y1="64" x2="795" y2="64" stroke="#d5dae1" stroke-width="2.5"/>
+  <circle cx="44" cy="35" r="10" fill="#ff5f57"/>
+  <circle cx="76" cy="35" r="10" fill="#febc2e"/>
+  <circle cx="108" cy="35" r="10" fill="#28c840"/>
+
+  <text x="400" y="232" text-anchor="middle" class="mono" font-size="148" font-weight="800" letter-spacing="-4">
+    <tspan fill="#17212b">LIT</tspan><tspan fill="#00853E">Lab</tspan>
+  </text>
+
+  <text x="400" y="296" text-anchor="middle" class="mono" font-size="29" font-weight="600">
+    <tspan fill="#1f6fd1">Language</tspan><tspan fill="#6b7885">, </tspan><tspan fill="#00853E">Interpretability</tspan><tspan fill="#6b7885">, and </tspan><tspan fill="#7a4cc9">Trust</tspan>
+  </text>
+
+  <!-- the four problem areas around interpretability (as in the overview figure) -->
+  <g stroke-linecap="round" stroke-width="9">
+    <line x1="284" y1="344" x2="324" y2="344" stroke="#1f6fd1"/>
+    <line x1="344" y1="344" x2="374" y2="344" stroke="#b7791f"/>
+    <line x1="426" y1="344" x2="456" y2="344" stroke="#d64541"/>
+    <line x1="476" y1="344" x2="516" y2="344" stroke="#7a4cc9"/>
+  </g>
+  <circle cx="400" cy="344" r="10" fill="#00853E"/>
+</svg>

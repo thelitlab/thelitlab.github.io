@@ -84,7 +84,7 @@ analytics:
       # Site Author
 author:
   name: "LIT @ UNT"
-  avatar: "site-logo.png"
+  avatar: "site-logo.svg"
   bio: "NLP/ML research at the University of North Texas."
   location: "Denton, TX"
   employer:

@@ -124,7 +124,7 @@
 
 /* Lab logo in the sidebar: show it as a rectangle (people's photos stay round),
    zoomed in to trim the white margin around the logo. Raise/lower $logo-zoom to taste. */
-$logo-zoom: 1.25;
+$logo-zoom: 1;   /* site-logo.svg has no margin; raise above 1 to crop into the logo */
 
 .author__avatar--logo {
   overflow: hidden;
