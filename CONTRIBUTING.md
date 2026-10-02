@@ -12,7 +12,6 @@ Add an entry to [`_data/authors.yml`](_data/authors.yml). It powers both the
 ```yaml
 jdoe:                                # your id: short, lowercase, no spaces
   name          : "Jane Doe"
-  group         : phd                # pi | postdoc | phd | ms | undergrad | alumni
   position      : "PhD student (2025–)"
   avatar        : "people/jdoe.jpg"  # put a square photo in images/people/
   bio           : "Works on faithfulness of LLM explanations."

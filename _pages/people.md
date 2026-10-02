@@ -5,21 +5,11 @@ permalink: /people/
 author_profile: false
 ---
 
-{% comment %}Edit _data/authors.yml to add or update lab members.{% endcomment %}
+{% comment %}Edit _data/authors.yml to add or update lab members. Everyone appears in one grid, in file order.{% endcomment %}
 {% include base_path %}
 
-{% assign groups = "pi:Principal Investigator|postdoc:Postdocs|phd:PhD Students|ms:Master's Students|undergrad:Undergraduates|alumni:Alumni" | split: "|" %}
-{% for g in groups %}
-  {% assign gid = g | split: ":" | first %}
-  {% assign glabel = g | split: ":" | last %}
-  {% assign members = "" | split: "" %}
-  {% for pair in site.data.authors %}
-    {% if pair[1].group == gid %}{% assign members = members | push: pair %}{% endif %}
-  {% endfor %}
-  {% if members.size > 0 %}
-<h2 class="archive__subtitle">{{ glabel }}</h2>
 <div class="people-grid">
-  {% for pair in members %}
+  {% for pair in site.data.authors %}
     {% assign m = pair[1] %}
     {% if m.avatar contains "://" %}{% assign av = m.avatar %}{% else %}{% assign av = m.avatar | default: "people/placeholder.jpg" | prepend: "/images/" | prepend: base_path %}{% endif %}
   <div class="person" id="{{ pair[0] }}">
@@ -36,5 +26,3 @@ author_profile: false
   </div>
   {% endfor %}
 </div>
-  {% endif %}
-{% endfor %}

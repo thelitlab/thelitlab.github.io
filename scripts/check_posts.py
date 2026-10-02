@@ -14,7 +14,6 @@ import yaml
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 POSTS = ROOT / "_posts"
 AUTHORS_FILE = ROOT / "_data" / "authors.yml"
-GROUPS = {"pi", "postdoc", "phd", "ms", "undergrad", "alumni"}
 NAME_RE = re.compile(r"^(\d{4}-\d{2}-\d{2})-[a-z0-9]+(?:-[a-z0-9]+)*\.(?:md|markdown)$")
 LOCAL_IMG_RE = re.compile(r"""(?:\]\(|src=["'])(?:\{\{\s*site\.baseurl\s*\}\}|\{\{\s*base_path\s*\}\})?(/images/[^)"'\s]+)""")
 MAX_IMAGE_BYTES = 2 * 1024 * 1024
@@ -36,8 +35,6 @@ def load_authors():
         if not isinstance(a, dict) or not a.get("name"):
             err(AUTHORS_FILE, f"'{key}' needs a name")
             continue
-        if a.get("group") not in GROUPS:
-            err(AUTHORS_FILE, f"'{key}' group must be one of {sorted(GROUPS)}, got {a.get('group')!r}")
         av = a.get("avatar")
         if av and "://" not in av and not (ROOT / "images" / av).is_file():
             err(AUTHORS_FILE, f"'{key}' avatar images/{av} does not exist")

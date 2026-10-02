@@ -5,17 +5,17 @@
 #
 # Fields:
 #   name          (required) full name
-#   group         (required) one of: pi, postdoc, phd, ms, undergrad, alumni
-#   position      short role shown on the People page, e.g. "PhD student (2024–)"
+#   position      role shown under the name, e.g. "PhD student (2024–)"
 #   avatar        file in /images/people/ (square, ~400x400), or a full https:// URL
 #   bio           one or two sentences
 #   uri           personal website
 #   email, github, googlescholar, orcid, linkedin   optional links
-#   now           (alumni only) where they are now
+#   now           (alumni) where they are now
+#
+# Everyone is shown together on the People page, in the order listed here.
 
 sagnik:
   name          : "Sagnik Ray Choudhury"
-  group         : pi
   position      : "Assistant Professor, CSE, UNT"
   avatar        : "people/sagnik.jpeg"
   bio           : "Applied NLP/ML researcher: explaining LLM behaviour and limitations, and scholarly information processing."
@@ -24,24 +24,21 @@ sagnik:
   github        : "sagnik"
   googlescholar : "https://scholar.google.com/citations?user=xl5b_vcAAAAJ"
 
-# TODO: confirm groups/positions for the students below and add photos.
+# TODO: confirm positions for the students below and add photos.
 fahmid:
   name          : "Fahmid Iqbal"
-  group         : phd
   position      : "Student"
   avatar        : "people/placeholder.jpg"
   uri           : "https://fahmidiqbal1344.github.io/fahmid-iqbal/"
 
 tasfia:
   name          : "Tasfia"
-  group         : phd
   position      : "Student"
   avatar        : "people/placeholder.jpg"
   uri           : "https://tasfiaseuti.github.io/"
 
 rafid:
   name          : "Rafid"
-  group         : phd
   position      : "Student"
   avatar        : "people/placeholder.jpg"
   uri           : "https://rafid5.github.io/"
