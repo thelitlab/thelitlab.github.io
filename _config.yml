@@ -11,9 +11,9 @@ title: "LIT@UNT"
 title_separator: "-"
 name: &name "Language, Interpretability and Trust @UNT"
 description: &description "Research lab at the Department of Computer Science and Engineering, University of North Texas"
-url: https://litlab.github.io # TODO: set to the lab site URL; the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url: https://thelitlab.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl: "" # the subpath of your site, e.g. "/blog"
-repository: "litlab/litlab.github.io" # TODO: set to the lab repo (used for "edit/propose a post" links)
+repository: "thelitlab/thelitlab.github.io" # GitHub repo (used for "edit/propose a post" links)
 repository_branch: "main"
 teaser: # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs: false # true, false (default)

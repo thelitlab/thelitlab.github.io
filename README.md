@@ -21,9 +21,9 @@ and served by GitHub Pages.
 
 ## One-time setup (maintainers)
 
-1. Create the GitHub repo, e.g. a `litlab` organization with a repo called
-   `litlab.github.io`, and push this folder to its `main` branch.
-2. Update `url`, `repository` and the `author:` block in `_config.yml`, and the
+1. The repo is [thelitlab/thelitlab.github.io](https://github.com/thelitlab/thelitlab.github.io)
+   and the site is served at https://thelitlab.github.io.
+2. Update the `author:` block in `_config.yml` and the
    handle in `.github/CODEOWNERS`.
 3. **Settings → Pages**: Source = *Deploy from a branch*, Branch = `main` / `(root)`.
    For a custom domain, add it there; GitHub creates the `CNAME` file.
