@@ -121,3 +121,12 @@
 }
 
 ::selection { background: $unt-green; color: #fff; }
+
+/* Lab logo in the sidebar: show it whole (people's photos stay round). */
+.author__avatar--logo img {
+  border-radius: 0;
+  border: 0;
+  padding: 0;
+  max-width: 100%;
+  @include breakpoint($large) { max-width: 230px; }
+}

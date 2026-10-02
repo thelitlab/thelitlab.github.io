@@ -2,12 +2,12 @@
 
 {% if page.authors %}{% assign author_key = page.authors | first %}{% else %}{% assign author_key = page.author %}{% endif %}
 {% if author_key and site.data.authors[author_key] %}
-  {% assign author = site.data.authors[author_key] %}{% else %}{% assign author = site.author %}
+  {% assign author = site.data.authors[author_key] %}{% else %}{% assign author = site.author %}{% assign is_lab_logo = true %}
 {% endif %}
 
 <div itemscope itemtype="http://schema.org/Person">
 
-  <div class="author__avatar">
+  <div class="author__avatar{% if is_lab_logo %} author__avatar--logo{% endif %}">
     {% if author.avatar contains "://" %}
     	<img src="{{ author.avatar }}" alt="{{ author.name }}">
     {% else %}
