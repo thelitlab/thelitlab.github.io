@@ -58,7 +58,21 @@ Doing everything in the browser is fine too: on GitHub, open `_posts/`, click
 **Add file → Create new file**, paste the template, and choose **Propose changes**.
 GitHub creates the branch and the pull request for you.
 
-## Previewing locally (optional)
+## Previewing your post
+
+**While writing:** use the **Preview** tab in GitHub's editor, or `Cmd+Shift+V` in VS Code.
+Images written as `{{ site.baseurl }}/...` won't show there; that's expected.
+
+**The whole site, without installing anything but Python:** every pull request builds a
+preview copy of the site.
+
+1. On your PR, open the **Checks** tab, then **Check pull request**, then **Summary**.
+2. Download **site-preview** under *Artifacts* and unzip it.
+3. In the unzipped folder, run `python3 -m http.server 4000` and open <http://localhost:4000>.
+
+Push more commits and a new preview is built each time.
+
+## Building locally with Jekyll (optional, needs Ruby 3)
 
 ```bash
 bundle install

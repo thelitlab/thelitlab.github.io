@@ -27,3 +27,25 @@ jobs:
           bundler-cache: true
       - name: Build with Jekyll (same gems as GitHub Pages)
         run: bundle exec jekyll build --future
+
+      # Preview copy for reviewers: links point at http://localhost:4000 (see _config.dev.yml),
+      # so it can be browsed offline with `python3 -m http.server 4000`.
+      - name: Build local preview
+        if: github.event_name == 'pull_request'
+        run: bundle exec jekyll build --future --config _config.yml,_config.dev.yml --destination _preview
+      - name: Upload preview
+        if: github.event_name == 'pull_request'
+        uses: actions/upload-artifact@v4
+        with:
+          name: site-preview
+          path: _preview
+          retention-days: 14
+      - name: How to view the preview
+        if: github.event_name == 'pull_request'
+        run: |
+          cat >> "$GITHUB_STEP_SUMMARY" <<'MD'
+          ### Preview this PR locally (no Ruby needed)
+          1. Download **site-preview** from the *Artifacts* section of this page and unzip it.
+          2. In the unzipped folder, run `python3 -m http.server 4000`.
+          3. Open <http://localhost:4000>.
+          MD
