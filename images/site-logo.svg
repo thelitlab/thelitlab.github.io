@@ -12,20 +12,20 @@
   <circle cx="76" cy="35" r="10" fill="#febc2e"/>
   <circle cx="108" cy="35" r="10" fill="#28c840"/>
 
-  <text x="400" y="232" text-anchor="middle" class="mono" font-size="148" font-weight="800" letter-spacing="-4">
+  <text x="400" y="258" text-anchor="middle" class="mono" font-size="196" font-weight="800" letter-spacing="-6">
     <tspan fill="#17212b">LIT</tspan><tspan fill="#00853E">Lab</tspan>
   </text>
 
-  <text x="400" y="296" text-anchor="middle" class="mono" font-size="29" font-weight="600">
+  <text x="400" y="320" text-anchor="middle" class="mono" font-size="31" font-weight="600">
     <tspan fill="#1f6fd1">Language</tspan><tspan fill="#6b7885">, </tspan><tspan fill="#00853E">Interpretability</tspan><tspan fill="#6b7885">, and </tspan><tspan fill="#7a4cc9">Trust</tspan>
   </text>
 
   <!-- the four problem areas around interpretability (as in the overview figure) -->
   <g stroke-linecap="round" stroke-width="9">
-    <line x1="284" y1="344" x2="324" y2="344" stroke="#1f6fd1"/>
-    <line x1="344" y1="344" x2="374" y2="344" stroke="#b7791f"/>
-    <line x1="426" y1="344" x2="456" y2="344" stroke="#d64541"/>
-    <line x1="476" y1="344" x2="516" y2="344" stroke="#7a4cc9"/>
+    <line x1="284" y1="360" x2="324" y2="360" stroke="#1f6fd1"/>
+    <line x1="344" y1="360" x2="374" y2="360" stroke="#b7791f"/>
+    <line x1="426" y1="360" x2="456" y2="360" stroke="#d64541"/>
+    <line x1="476" y1="360" x2="516" y2="360" stroke="#7a4cc9"/>
   </g>
-  <circle cx="400" cy="344" r="10" fill="#00853E"/>
+  <circle cx="400" cy="360" r="10" fill="#00853E"/>
 </svg>
