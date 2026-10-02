@@ -141,3 +141,11 @@ $logo-zoom: 1.25;
     transform: scale($logo-zoom);
   }
 }
+
+/* Hugging Face has no Font Awesome icon; use its emoji at icon size. */
+.hf-icon {
+  display: inline-block;
+  text-align: center;
+  font-style: normal;
+  line-height: 1;
+}

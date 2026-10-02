@@ -99,7 +99,8 @@ author:
   flickr:
   facebook:
   foursquare:
-  github: # TODO: lab GitHub org
+  github: "thelitlab"
+  huggingface: "https://huggingface.co/organizations/nlpatunt/"
   google_plus:
   keybase:
   instagram:
