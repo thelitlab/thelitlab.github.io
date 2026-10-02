@@ -26,25 +26,25 @@ sagnik:
 
 # TODO: confirm positions for the students below and add photos.
 fahmid:
-  name          : "Fahmid Iqbal"
+  name          : "Fahmid Shahriar Iqbal"
   position      : "Student"
-  avatar        : "people/placeholder.jpg"
+  avatar        : "people/fahmid.jpg"
   uri           : "https://fahmidiqbal1344.github.io/fahmid-iqbal/"
 
-tasfia:
-  name          : "Tasfia"
+seuti:
+  name          : "Tasfia Seuti"
   position      : "Student"
-  avatar        : "people/placeholder.jpg"
+  avatar        : "people/seuti.jpg"
   uri           : "https://tasfiaseuti.github.io/"
 
 rafid:
-  name          : "Rafid"
+  name          : "Rafid Isharak Jahan"
   position      : "Student"
-  avatar        : "people/placeholder.jpg"
+  avatar        : "people/rafid.jpg"
   uri           : "https://rafid5.github.io/"
 
 Arefa:
-  name          : "Arefa"
+  name          : "Arefa Patwary"
   position      : "Student"
-  avatar        : "people/placeholder.jpg"
-  uri           : "https://rafid5.github.io/"
+  avatar        : "people/arefa.jpg"
+  uri           : "https://arefapatwary.github.io"
