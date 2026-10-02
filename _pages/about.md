@@ -26,9 +26,9 @@ Our work is supported by:
 {% for f in site.data.funding %}
   <div class="funder">
     <a href="{{ f.url }}" class="funder__logo"><img src="{{ base_path }}/images/funding/{{ f.logo }}" alt="{{ f.name }}"></a>
-    <ul class="funder__grants">
+    <!--ul class="funder__grants">
     {% for g in f.grants %}<li>{{ g | markdownify | remove: "<p>" | remove: "</p>" | strip }}</li>{% endfor %}
-    </ul>
+    </ul-->
   </div>
 {% endfor %}
 </div>

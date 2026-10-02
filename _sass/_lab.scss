@@ -161,7 +161,7 @@ $logo-zoom: 1.25;
    (suffix 2/12 vs. a 7.5/12 text column, so up to ~126% of the column). */
 .research-overview--wide {
   @include breakpoint($large) {
-    width: 125%;
+    width: 110%;
     max-width: none;
   }
 }
