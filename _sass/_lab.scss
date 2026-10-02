@@ -151,8 +151,10 @@ $logo-zoom: 1.25;
 }
 
 .research-overview {
+  display: block;            /* theme makes <figure> a flexbox, which shrinks a linked image */
   margin: 1.5em 0 2em;
-  img { display: block; width: 100%; height: auto; }
+  a { display: block; }
+  img { display: block; width: 100%; height: auto; margin-bottom: 0; }
 }
 
 /* Home page: let the figure use the empty right-hand margin of .page
