@@ -83,7 +83,7 @@ analytics:
 
       # Site Author
 author:
-  name: "LITLab"
+  name: ""
   avatar: "site-logo.svg"
   bio: "NLP/ML research at the University of North Texas."
   location: "Denton, TX"

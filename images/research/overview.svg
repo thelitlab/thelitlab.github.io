@@ -55,13 +55,13 @@
     <text x="78" y="150" class="num" fill="#1f6fd1">01</text>
     <text x="78" y="186" class="ttl">Evaluation &amp;</text>
     <text x="78" y="216" class="ttl">peer review</text>
-    <text x="78" y="288" class="kw">LLM judges · rubrics</text>
-    <text x="78" y="312" class="kw">human preferences</text>
-    <text x="78" y="336" class="kw">scientific peer review</text>
-    <text x="78" y="390" class="q">what drives a judgment,</text>
-    <text x="78" y="408" class="q">and is it sound?</text>
+    <text x="78" y="288" class="kw">alignment with human</text>
+    <text x="78" y="312" class="kw">reasoning faithfulness</text>
+    <text x="78" y="336" class="kw">peer review reliability</text>
+    <text x="78" y="390" class="q">what drives a model judgment,</text>
+    <text x="78" y="408" class="q">and does the rationale reflect it?</text>
   </g>
-  <g transform="translate(340 330)">
+  <g transform="translate(340 280)">
     <rect x="-48" y="-58" width="84" height="108" rx="8" class="card"/>
     <line x1="-36" y1="-40" x2="20" y2="-40" class="ink"/>
     <line x1="-36" y1="-28" x2="8" y2="-28" class="ink"/>
@@ -82,13 +82,13 @@
     <text x="798" y="150" class="num" fill="#b7791f">02</text>
     <text x="798" y="186" class="ttl">Generalization</text>
     <text x="798" y="216" class="ttl">in NLP tasks</text>
-    <text x="798" y="288" class="kw">out-of-distribution</text>
-    <text x="798" y="312" class="kw">new domains &amp; tasks</text>
+    <text x="798" y="288" class="kw">domain transfer</text>
+    <text x="798" y="312" class="kw">adversarial perturbation </text>
     <text x="798" y="336" class="kw">shortcut learning</text>
-    <text x="798" y="390" class="q">why does a model fail</text>
-    <text x="798" y="408" class="q">on new data?</text>
+    <text x="798" y="390" class="q">what does a model learn</text>
+    <text x="798" y="408" class="q">and when does it transfer?</text>
   </g>
-  <g transform="translate(1062 330)" class="mono">
+  <g transform="translate(1062 300)" class="mono">
     <line x1="-64" y1="40" x2="70" y2="40" stroke="#9aa7b4" stroke-width="2"/>
     <path d="M-64 40 C -44 40, -40 -34, -22 -34 C -4 -34, 0 40, 20 40" fill="#b7791f" fill-opacity="0.15" stroke="#b7791f" stroke-width="3"/>
     <path d="M-6 40 C 14 40, 18 -6, 34 -6 C 50 -6, 54 40, 72 40" fill="none" stroke="#b7791f" stroke-width="3" stroke-dasharray="6 5"/>
@@ -106,13 +106,13 @@
     <text x="798" y="580" class="num" fill="#d64541">03</text>
     <text x="798" y="616" class="ttl">Computational</text>
     <text x="798" y="646" class="ttl">social science</text>
-    <text x="798" y="718" class="kw">survey instruments</text>
-    <text x="798" y="742" class="kw">measurement reliability</text>
+    <text x="798" y="718" class="kw">instrument validity</text>
+    <text x="798" y="742" class="kw">model interbal stance</text>
     <text x="798" y="766" class="kw">social &amp; political bias</text>
-    <text x="798" y="820" class="q">are model answers</text>
-    <text x="798" y="838" class="q">stable and valid?</text>
+    <text x="798" y="820" class="q">do model responses reveal attitudes,</text>
+    <text x="798" y="838" class="q">or reflect how we ask?</text>
   </g>
-  <g transform="translate(1066 760)">
+  <g transform="translate(1066 660)">
     <rect x="-56" y="-54" width="112" height="108" rx="10" class="card"/>
     <line x1="-42" y1="-36" x2="28" y2="-36" class="ink"/>
     <g fill="none" stroke="#9aa7b4" stroke-width="2">
@@ -135,13 +135,12 @@
     <text x="78" y="580" class="num" fill="#7a4cc9">04</text>
     <text x="78" y="616" class="ttl">Law, governance</text>
     <text x="78" y="646" class="ttl">&amp; compliance</text>
-    <text x="78" y="718" class="kw">GDPR · EU AI Act</text>
-    <text x="78" y="742" class="kw">auditing models</text>
-    <text x="78" y="766" class="kw">verifiable compliance</text>
-    <text x="78" y="820" class="q">can compliance be checked</text>
-    <text x="78" y="838" class="q">inside a model?</text>
+    <text x="78" y="732" class="kw">Data use audit</text>
+    <text x="78" y="756" class="kw">verifiable compliance</text>
+    <text x="78" y="820" class="q">what evidence can interpretability</text>
+    <text x="78" y="838" class="q">provide for a compliance claim?</text>
   </g>
-  <g transform="translate(344 768)">
+  <g transform="translate(344 730)">
     <line x1="0" y1="-50" x2="0" y2="46" stroke="#8a96a3" stroke-width="5" stroke-linecap="round"/>
     <rect x="-30" y="46" width="60" height="10" rx="4" fill="#fff" stroke="#8a96a3" stroke-width="2.5"/>
     <line x1="-54" y1="-38" x2="54" y2="-38" stroke="#17212b" stroke-width="5" stroke-linecap="round"/>
